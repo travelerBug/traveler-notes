@@ -17,4 +17,4 @@ jobs:
           dst_token: '${{ secrets.GITEE_TOKEN }}'
           static_list: traveler-notes
           force_update: true
-debug: true
+          debug: true
