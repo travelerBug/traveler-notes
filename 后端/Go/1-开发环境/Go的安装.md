@@ -6,15 +6,9 @@ Go官网下载地址：https://golang.org/dl/ (打开有点慢)
 
 ## 1.2. Windows安装
 
-![Windows安装包](https://downloadflies.com//blog-img/fileName/1.png)
 
-双击文件
 
-![Windows安装包](https://downloadflies.com//blog-img/fileName/2.png)
 
-一定要记住这个文件的位置后面还有用
-
-![Windows安装包](https://downloadflies.com//blog-img/fileName/3.png)
 
 ## 1.3. Linux下安装
 

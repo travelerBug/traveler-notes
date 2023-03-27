@@ -14,4 +14,4 @@ GoLand 官网下载地址：https://www.jetbrains.com/go/
 
 3.cmder
 
-![image-20220817154134892](https://downloadflies.com/blog-img/image-20220817154134892.png)
+![image-20220817154134892](../../../imgs/image-20220817154134892.png)

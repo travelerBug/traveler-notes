@@ -8,17 +8,17 @@ Linux和Mac平台就参照上面配置环境变量的方式将自己的工作目
 
 1.我的电脑->属性->高级系统设置->在环境变量中添加 `GOROOT`，值为 `go` 的安装目录：
 
-![image-20220914152631872](https://downloadflies.com/blog-img/image-20220914152631872.png)
+![image-20220914152631872](../../../Imgs/image-20220914152631872-16798841196363.png)
 
 2. 然后在环境变量 `PATH` 中添加 `go` 安装目录下的 `bin` 文件夹。
 
-![image-20220914152645355](https://downloadflies.com/blog-img/image-20220914152645355.png)
+![image-20220914152645355](../../../Imgs/image-20220914152645355-16798841231395.png)
 
 3.接着添加一个环境变量 `GOPATH`，值为你自己希望的工作目录。
 
-![image-20220914152700268](https://downloadflies.com/blog-img/image-20220914152700268.png)
+![image-20220914152700268](../../../Imgs/image-20220914152700268-16798841271877.png)
 
-![新建工作目录](https://downloadflies.com//blog-img/fileName/4.png)
+![新建工作目录](../../../Imgs/1679884151267.jpg)
 
 ## 1.1. go的项目目录
 
@@ -28,9 +28,9 @@ Linux和Mac平台就参照上面配置环境变量的方式将自己的工作目
 
 ## 1.2. 适合个人开发者
 
-我们知道源代码都是存放在`GOPATH`的`src`目录下，那我们可以按照下图来组织我们的代码。
 
-![GO目录结构](https://downloadflies.com//blog-img/fileName/5.png)
+
+
 
 ## 1.3. 目前流行的项目结构
 
@@ -38,7 +38,7 @@ Go语言中也是通过包来组织代码文件，我们可以引用别人的包
 
 因为不是每个个人开发者都拥有自己的顶级域名，所以目前流行的方式是使用个人的github用户名来区分不同的包。
 
-![GO目录结构](https://downloadflies.com//blog-img/fileName/6.png)
+
 
 举个例子：张三和李四都有一个名叫studygo的项目，那么这两个包的路径就会是：
 
@@ -62,4 +62,4 @@ go get github.com/jmoiron/sqlx
 
 ## 1.4. 适合企业开发者
 
-![GO目录结构](https://downloadflies.com//blog-img/fileName/7.png)
+![GO目录结构](../../../imgs/1679884274565.jpg)

@@ -315,7 +315,7 @@ public class No22_UniTask : MonoBehaviour
 
 **UniTaskTracker 可视化任务**
 使用UniTask的监视器，可以监视当前执行的哪些任务
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191224133739882.png?ynotemdtimestamp=1679304675174)
+![在这里插入图片描述](../../../../Imgs/20191224133739882.png)
 Enable AutoReload：是否允许自动加载task
 Enable Tracking： 是否允许跟踪task
 Enable StackTrace：是否允许堆栈跟踪
