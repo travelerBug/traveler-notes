@@ -129,7 +129,13 @@
 
 ![image-20240115182622518](../../../Imgs/image-20240115182622518.png)
 
-## 五、unity打包ios
+## 五、
+
+
+
+
+
+## 六、unity打包ios
 
 如果项目接入了Firebase需要注意
 
@@ -141,7 +147,28 @@
 
 - <img src="../../../Imgs/image-20240116170632392.png" alt="image-20240116170632392" style="zoom:80%;" />
 
-  
+
+
+
+### 证书问题整理：
+
+####  provisioning profile doesn't include signing certificate
+
+> 笔者打开项目莫名就出现的(前一天还好好的)。  解决方案把证书从apple后台中删除，钥匙串中的也删除全部重新生成解决的。
+
+
+
+####  Could not launch “Runner” Domain: IDEDebugSessionErrorDomain Code: 3
+
+> 笔者是使用adhot证书打包时遇到的，[参考原因](https://stackoverflow.com/questions/66741621/could-not-launch-runner-domain-idedebugsessionerrordomain-code-3)
+>
+> 问题出在代码签名上。您的应用程序使用错误的配置文件进行签名，并且不允许 Xcode 将调试器附加到应用程序。例如，如果您想将调试器附加到使用 AdHoc 配置文件签名的应用程序，您可以在设备上安装并运行您的应用程序，但无法调试它（附加调试器）。如果您想将调试器附加到您的应用程序，则需要使用使用开发配置文件签名的应用程序。检查项目的签名设置，并确保您使用开发配置文件来签名应用程序。
+>
+> 总结：使用adhot打包的话，需要把数据线拔掉后手机真机调试。
+
+
+
+
 
 ## 六、上架
 
