@@ -4,6 +4,10 @@
 
 [苹果开发者网站](https://developer.apple.com/)注册成为苹果开发者
 
+apple store 地址：https://appstoreconnect.apple.com/login
+
+苹果官方帮助：https://help.apple.com/app-store-connect/?lang=zh-cn#/devb57be10e7
+
 ## 二、注册会员
 
 在`appstore` 中下载 `Apple Developer App`应用进行注册申请。
@@ -103,7 +107,11 @@
 
 <img src="../../../Imgs/image-20240115180224290.png" alt="image-20240115180224290" style="zoom:80%;" />
 
+下载到桌面上，然后双击添加到钥匙串中，可在Keychain Access->“证书”中查看。
 
+> 如果你有其他的证书用途，你也可以点击这个证书导出为p12格式的文件（如云打包或者用其他电脑上架App）
+>
+> 注： 一般一个开发者帐号创建一个发布证书就够了，如果以后需要在其他电脑上上架App，只需要在钥匙串访问中创建p12文件，把p12文件安装到其他电脑上，这相当于给予了其他电脑发布App的权限。
 
 ## 四、申请生成配置文件
 
@@ -129,13 +137,7 @@
 
 ![image-20240115182622518](../../../Imgs/image-20240115182622518.png)
 
-## 五、
-
-
-
-
-
-## 六、unity打包ios
+## 五、unity打包ios
 
 如果项目接入了Firebase需要注意
 
@@ -164,21 +166,19 @@
 >
 > 问题出在代码签名上。您的应用程序使用错误的配置文件进行签名，并且不允许 Xcode 将调试器附加到应用程序。例如，如果您想将调试器附加到使用 AdHoc 配置文件签名的应用程序，您可以在设备上安装并运行您的应用程序，但无法调试它（附加调试器）。如果您想将调试器附加到您的应用程序，则需要使用使用开发配置文件签名的应用程序。检查项目的签名设置，并确保您使用开发配置文件来签名应用程序。
 >
-> 总结：使用adhot打包的话，需要把数据线拔掉后手机真机调试。
+> 总结：使用adhot打包的话，需要把数据线拔掉后手机真机运行即可。
 
 
 
+## 六、上传
 
-
-## 六、上架
-
-## 1、测试版上传蒲公英托管平台或直接打包到手机
+## 1、测试版上传TestFlight或直接打包到手机
 
 ## 2、正式版上传App Store
 
-## 七、填写上架信息
+## 七、上架到AppStore
 
-### 进入App Store Connect创建应用才可以上传
+### 填写上架信息,进入App Store Connect创建应用才可以上传
 
 > 入口：[https://developer.apple.com/acc](https://link.zhihu.com/?target=https%3A//developer.apple.com/account)
 
